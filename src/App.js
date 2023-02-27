@@ -24,7 +24,7 @@ class App extends React.Component {
  }
   render() {
      return (<div>
-        <Header title="Lista polizovatelia"/> 
+        <Header title="Lista userilor"/> 
         <main>
           <Users users={ this.state.users} onEdit={this.editUser} onDelete={this.deleteUser}/>
         </main>
